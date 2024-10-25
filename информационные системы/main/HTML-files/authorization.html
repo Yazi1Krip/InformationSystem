@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=aktura@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/style-main.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <title>Нарушениям нет</title>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="row-main">
+        <div class="col-form">
+            <form class="form" action="../PHP-files/authorization.php" method="post">
+                <div class="reg"><span class="star">*</span>Авторизация</div>
+                
+                <div class="input-box">
+                    <div class="input-block">
+                        <div class="input-row">
+                            <div class="input-column">
+                                <p class="place-text">Введите логин:</p>
+                                <input type="text" class="login-1" name="login" placeholder="myLogin" required>
+
+                            </div>
+                            <div class="input-column">
+                                <p class="place-text">Введите пароль:</p>
+                                <input type="password" class="password" name="password" required>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <button class="post-button" type="submit">Войти</button>
+                <a href="registration.html">Нет аккаунта? <span class="login">Зарегистрироваться !</span></a>
+            </form>
+        </div>
+        <div class="col-image">
+            <img class="side-image" src="../../image/martin-rajdl-j1RtlbprQCg-unsplash.jpg" alt="">
+        </div>
+    </div>
+    <script src="../../scripts/script.js"></script>
+</body>
+
+</html>
